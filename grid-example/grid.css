@@ -1,9 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .grid {
     color: white;
     display: grid;
     gap: 1rem;
-    width: 1000px;
-    height: 800px;
+    width: 100vw;
+    height: 100vh;
     grid-template-columns: repeat(3, 1fr) .45fr;
     grid-template-rows: .35fr 1fr 1fr 1fr .35fr;
     font-family: Arial, sans-serif;
