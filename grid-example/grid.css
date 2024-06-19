@@ -1,0 +1,54 @@
+.grid {
+    color: white;
+    display: grid;
+    gap: 1rem;
+    width: 1000px;
+    height: 800px;
+    grid-template-columns: repeat(3, 1fr) .45fr;
+    grid-template-rows: .35fr 1fr 1fr 1fr .35fr;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: red;
+    border: white 1px solid;
+    grid-column: 1 / -1;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.small-box-1,
+.small-box-2,
+.small-box-3 {
+    background-color: red;
+    padding: 1rem;
+    font-weight: bold;
+    border: white 1px solid;
+    grid-row: 2 / 3;
+}
+
+.sidebar {
+    background-color: red;
+    padding: 1rem;
+    font-weight: bold;
+    border: white 1px solid;
+    grid-column: 4 / 5;
+    grid-row: 2 / 5;
+}
+
+.main-content {
+    background-color: red;
+    padding: 1rem;
+    font-weight: bold;
+    border: white 1px solid;
+    grid-column: 1 / 4;
+    grid-row: 3 / 5;
+}
+
+.footer {
+    background-color: red;
+    padding: 1rem;
+    font-weight: bold;
+    border: white 1px solid;
+    grid-column: 1 / -1;
+}
